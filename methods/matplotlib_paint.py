@@ -74,7 +74,7 @@ def paint_scatter(x, y):
     """
     # 使用plt.plot()绘图。"lw"-线条的宽度；"ls"-线条的风格样式："-", "--", '-.', ':'
     # label-曲线对应的标签，一般在四个边角出现；color-曲线对应的颜色：'b', 'g', 'r', 'c', 'm', 'y', 'k', 'w'
-    plt.plot(x, y, lw=2, ls=':', label="xinge", color="r")
+    plt.scatter(x, y, lw=2, ls=':', label="xinge", color="r")
     # 设置图案位置
     plt.legend()
 
